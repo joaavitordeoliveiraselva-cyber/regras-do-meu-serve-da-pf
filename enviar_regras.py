@@ -45,7 +45,7 @@ dados = {
 
 dados["embeds"][0]["description"] += (
     "\n\n🌐 **Leia todas as regras completas no site abaixo:**\n"
-    "https://regras-pf-policiafederalmta.netlify.app"
+    "https://regras-policia-federal.netlify.app/"
 )
 
 resposta = requests.post(WEBHOOK_URL, json=dados)
